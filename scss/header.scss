@@ -1,0 +1,81 @@
+//**************Header and Mobile menu****************
+header{
+    height: 80px;
+    // background: #BF5364;
+    // position: fixed;
+    z-index: 100;
+    .logo{
+        width: 20%;
+        // background:#25BF6F;
+    }
+    .navigation{
+        width: 60%;
+        background:transparent;
+    }
+    .main-menu{
+        // background: red;
+        width: 100%;
+        height: 100%;
+        // list-style: none;
+        font-family: $font-family;
+        font-size: 20px;
+    }
+    
+    .navItem{
+        color:$pink;
+        text-decoration: none;
+        // background: red;
+        height: 100%;
+        // transition: transform 4s ease-in;
+
+    }
+    .navItem:hover{
+        text-decoration: underline overline $orange;
+        // transition: 2s;
+        font-size: 22px;
+        // transform: scale(4);
+        // border-bottom:solid 2px #017338;
+    }
+    .hamburger-button{
+        display: none;
+        border: none;
+        background:transparent;
+      
+    }
+    .mobile-container{
+        width: 400px;
+        height: 500px;
+        background: black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: 0.4s ease-in-out;
+        transform: translateY(-500px);
+    }
+    .mobile-container.open {
+        transform: translateY(0px);
+        z-index: 100;
+    }
+    .mobile-container li{
+
+        margin: 10px;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+        
+  
+}
+  @media screen and  (max-width:750px)
+    {
+            .hamburger-button{
+                display: block !important;
+                position: absolute;
+                right: 0;
+                top: 2%;
+              
+            }
+            .navigation{
+                display: none !important;
+            }
+
+    }

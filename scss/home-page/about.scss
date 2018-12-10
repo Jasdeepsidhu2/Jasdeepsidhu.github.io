@@ -1,0 +1,78 @@
+//**********About Section**************
+.about{
+    // height: 600px;
+    // background: #F2697F;
+    .about-me{
+        height: 550px;
+        width: 60%;
+        position: relative;
+        margin: 3% auto;
+        padding:25px;
+        // background: teal;
+        border: solid 1px black;
+        font-family:$font-family;
+        font-size: 22px;
+        h1{
+            color:$pink;
+            text-align: center;
+        }
+        .intro:first-letter{
+            font-size: 200%;
+        }
+        .quote{
+           
+            // font-size: 30px;
+            color: $pink;
+        }
+    // .about-inner{
+    //     height: 96%;
+    //     width: 96%;
+    //     position: absolute;
+    //     top: 2%;
+    //     left: 2%;
+    //     // margin: 3%;
+    //     // background: teal;
+    //     border: solid 2px black;
+    // }    
+    }
+     .profile-pic{
+         height: 400px;
+         width: 400px;
+         background:$pink;
+         margin: 4% auto;
+        //  border: solid 2px black;
+     }
+     img{
+         width: 100%;
+         height: 100%;
+         padding: 2%;
+     }
+    //  button{
+    //      width: 200px;
+    //      height: 50px;
+    //      font-family: $font-family;
+    //      background: teal;
+    //      border-radius:  20px;
+    //      border: none;
+    //  }
+}
+
+@media screen and  (max-width:900px){
+.about{
+    flex-direction: column-reverse;
+    .about-me{
+        width:70%;
+    }
+    .profile-pic{
+        width: 50%;
+    }
+}
+}
+@media screen and  (max-width:780px){
+    .about{
+    .profile-pic{
+        width: 50%;
+        height:250px;
+    }
+}
+}

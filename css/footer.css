@@ -1,0 +1,11 @@
+footer {
+  height: 100px;
+  padding: 2%;
+  text-align: right;
+  background: grey;
+}
+footer .social-icons {
+  width: 10%;
+}
+
+/*# sourceMappingURL=footer.css.map */

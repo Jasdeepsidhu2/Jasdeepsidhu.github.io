@@ -1,0 +1,40 @@
+// *********Contact Page**********
+.hero-contact{
+    height: 550px;
+    // background:url('../images/a-l-l-e-f-v-i-n-i-c-i-u-s-205147-unsplash.jpg');
+    // background: teal;
+    // background-size: cover;
+    // background-position: center;
+    position: relative;
+    overflow: hidden;
+   .hero-contact-inner{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: teal;
+            // background-image: linear-gradient(#af902f, #ff6126);
+            // background: url("../images/great.jpg");
+        // background-size: cover;
+        // background-position: center;
+        transform: skewY(-6deg);
+        transform-origin: top left;
+    }
+}
+form{
+    width: 40%;
+    // padding: 20px;
+    // margin: auto;
+    .button{
+       text-align: center;
+        button{
+            background: $pink;
+        }
+
+
+    }
+}
+
