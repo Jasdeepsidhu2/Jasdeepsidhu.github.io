@@ -1,8 +1,6 @@
 .hero {
   height: 600px;
-  background: url("../../images/github.jpg");
-  background-size: cover;
-  background-position: center;
+  background: url("../../images/images.png");
   position: relative;
 }
 .hero .hero-content {

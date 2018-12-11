@@ -1,0 +1,29 @@
+.hero-contact {
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-contact .hero-contact-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: teal;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+form {
+  width: 40%;
+}
+form .button {
+  text-align: center;
+}
+form .button button {
+  background: #F220A7;
+}
+
+/*# sourceMappingURL=contact.css.map */

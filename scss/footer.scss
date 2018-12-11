@@ -1,12 +1,19 @@
 
 // *********Footer Section***************
+@import "./variables.scss";
 footer{
     height: 100px;
     padding: 2%;
-    text-align: right;
-    background: grey;
     .social-icons{
-        width:10%;
+        width:150px;
+        margin:20px;
     }
-
+    .important{
+        margin: 25px;
+    }
+    .icon-link:hover{
+        transform: scale(1.2);
+        transition: 1.2s;
+        color: $pink;
+    }
 }
