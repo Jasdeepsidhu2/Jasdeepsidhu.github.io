@@ -1,0 +1,29 @@
+.hero {
+  height: 600px;
+  background: url("../../images/github.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero .hero-content {
+  opacity: 0;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s linear;
+  transform: translate(-150px, 0px);
+}
+.hero .hero-content h1 {
+  color: white;
+}
+.hero .hero-content h1:first-letter {
+  color: #F220A7;
+}
+.hero .hero-content h2 {
+  color: #F220A7;
+}
+.hero .hero-content:hover {
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+
+/*# sourceMappingURL=hero.css.map */

@@ -1,8 +1,9 @@
+@import "../variables.scss";
   //*****************Hero Section*************
   .hero{
     height: 600px;
-    // background:url('../images/a-l-l-e-f-v-i-n-i-c-i-u-s-205147-unsplash.jpg');
-    background: teal;
+    background :url('../../images/github.jpg');
+    // background: teal;
     background-size: cover;
     background-position: center;
     position: relative;

@@ -1,0 +1,100 @@
+.work {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+
+.work-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/great.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+.heading {
+  text-align: center;
+}
+
+.cards-container {
+  width: 95%;
+  margin: 20px auto;
+}
+.cards-container .work4, .cards-container .work3, .cards-container .work2, .cards-container .work1 {
+  height: 500px;
+  width: 22%;
+  margin: 15px;
+  border-radius: 20px;
+}
+.cards-container .work4 .learn4, .work4 .cards-container .learn4, .cards-container .work3 .learn3, .work3 .cards-container .learn3, .cards-container .work2 .learn2, .work2 .cards-container .learn2, .cards-container .work1 .learn1 {
+  font-family: "Raleway", sans-serif;
+  height: 15%;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 0px 0px 20px 20px;
+  background: #F581BE;
+}
+.cards-container .work4 .description4, .work4 .cards-container .description4, .cards-container .work3 .description3, .work3 .cards-container .description3, .cards-container .work2 .description2, .work2 .cards-container .description2, .cards-container .work1 .description1 {
+  height: 40%;
+  text-align: center;
+  padding: 15px;
+  background: #4d524824;
+}
+.cards-container .work1 .pic1 {
+  height: 45%;
+  background: teal;
+}
+.cards-container .work1 .pic1 img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+.work2 .pic2 {
+  height: 45%;
+  background: teal;
+}
+.work2 .pic2 img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+.work3 .pic3 {
+  height: 45%;
+  background: teal;
+}
+.work3 .pic3 img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+.work4 .pic4 {
+  height: 45%;
+  background: teal;
+}
+.work4 .pic4 img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .cards-container .work1, .cards-container .work2, .cards-container .work3, .cards-container .work4 {
+    width: 40%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cards-container .work1, .cards-container .work2, .cards-container .work3, .cards-container .work4 {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=work.css.map */
