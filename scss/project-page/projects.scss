@@ -28,7 +28,7 @@
             padding: 20px;
             h3{
                 opacity: 0;
-                color: white;
+                color: $pink2;
             } 
         }
         .animation:before {
@@ -39,7 +39,7 @@
                 width: 0px;
                 height: 300px;
                 // background: red;
-                background: rgba(255,255,255,0.3);
+                background: rgba(194, 102, 197, 0.3);
                 border-radius: 20px;
                 transition: all 2s ease;
             } 
@@ -52,7 +52,10 @@
                     opacity: 1;
                 }
             }
-
     }
-    
+}
+.cms-projects{
+    height: 150px;
+    background: linear-gradient(white 10%, $orange 40%, $pink);
+
 }
