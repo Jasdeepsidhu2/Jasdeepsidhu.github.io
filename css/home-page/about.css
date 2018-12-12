@@ -1,3 +1,6 @@
+.about {
+  margin-bottom: -10px;
+}
 .about .about-me {
   width: 60%;
   position: relative;
@@ -24,6 +27,7 @@
   width: 300px;
   background: #e079e0;
   margin: 4% auto;
+  border-radius: 50%;
 }
 .about .pic-sign .profile-pic img {
   width: 100%;
@@ -32,12 +36,22 @@
 }
 .about .pic-sign .sign {
   height: 80px;
-  width: 150px;
+  width: 250px;
   transform: rotate(-20deg);
 }
 .about .pic-sign .sign img {
   height: 100%;
   width: 100%;
+}
+
+.personal {
+  color: #6d0d40;
+  text-align: center;
+  height: 120px;
+  width: 180px;
+  margin-left: 3%;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 900px) {

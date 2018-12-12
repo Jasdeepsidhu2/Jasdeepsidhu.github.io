@@ -28,7 +28,7 @@ header .nav-container .navigation .main-menu .nav-item {
 }
 header .nav-container .navigation .main-menu .nav-item:hover {
   text-decoration: underline overline;
-  transition: 2s;
+  transition: 0.5s ease;
   font-size: 22px;
 }
 header .nav-container .hamburger-button {
@@ -64,7 +64,7 @@ header .nav-container .mobile-container li {
   border-bottom: 1px solid #e079e0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .hamburger-button {
     display: block !important;
     position: absolute;
@@ -100,7 +100,7 @@ header .nav-container .mobile-container li {
 
 .signup {
   width: 40%;
-  padding: 20px;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=contact.css.map */

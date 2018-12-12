@@ -46,7 +46,7 @@ header .nav-container .navigation .main-menu .nav-item {
 }
 header .nav-container .navigation .main-menu .nav-item:hover {
   text-decoration: underline overline;
-  transition: 2s;
+  transition: 0.5s ease;
   font-size: 22px;
 }
 header .nav-container .hamburger-button {
@@ -82,7 +82,7 @@ header .nav-container .mobile-container li {
   border-bottom: 1px solid #e079e0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .hamburger-button {
     display: block !important;
     position: absolute;
@@ -121,6 +121,9 @@ header .nav-container .mobile-container li {
   transform: translate(0px, 0px);
 }
 
+.about {
+  margin-bottom: -10px;
+}
 .about .about-me {
   width: 60%;
   position: relative;
@@ -147,6 +150,7 @@ header .nav-container .mobile-container li {
   width: 300px;
   background: #e079e0;
   margin: 4% auto;
+  border-radius: 50%;
 }
 .about .pic-sign .profile-pic img {
   width: 100%;
@@ -155,12 +159,22 @@ header .nav-container .mobile-container li {
 }
 .about .pic-sign .sign {
   height: 80px;
-  width: 150px;
+  width: 250px;
   transform: rotate(-20deg);
 }
 .about .pic-sign .sign img {
   height: 100%;
   width: 100%;
+}
+
+.personal {
+  color: #6d0d40;
+  text-align: center;
+  height: 120px;
+  width: 180px;
+  margin-left: 3%;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 900px) {
@@ -314,7 +328,7 @@ header .nav-container .navigation .main-menu .nav-item {
 }
 header .nav-container .navigation .main-menu .nav-item:hover {
   text-decoration: underline overline;
-  transition: 2s;
+  transition: 0.5s ease;
   font-size: 22px;
 }
 header .nav-container .hamburger-button {
@@ -350,7 +364,7 @@ header .nav-container .mobile-container li {
   border-bottom: 1px solid #e079e0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .hamburger-button {
     display: block !important;
     position: absolute;
@@ -386,7 +400,7 @@ header .nav-container .mobile-container li {
 
 .signup {
   width: 40%;
-  padding: 20px;
+  padding: 30px;
 }
 
 header {
@@ -419,7 +433,7 @@ header .nav-container .navigation .main-menu .nav-item {
 }
 header .nav-container .navigation .main-menu .nav-item:hover {
   text-decoration: underline overline;
-  transition: 2s;
+  transition: 0.5s ease;
   font-size: 22px;
 }
 header .nav-container .hamburger-button {
@@ -455,7 +469,7 @@ header .nav-container .mobile-container li {
   border-bottom: 1px solid #e079e0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .hamburger-button {
     display: block !important;
     position: absolute;
@@ -614,7 +628,7 @@ header .nav-container .navigation .main-menu .nav-item {
 }
 header .nav-container .navigation .main-menu .nav-item:hover {
   text-decoration: underline overline;
-  transition: 2s;
+  transition: 0.5s ease;
   font-size: 22px;
 }
 header .nav-container .hamburger-button {
@@ -650,7 +664,7 @@ header .nav-container .mobile-container li {
   border-bottom: 1px solid #e079e0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .hamburger-button {
     display: block !important;
     position: absolute;
