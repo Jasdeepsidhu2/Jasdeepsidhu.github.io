@@ -98,14 +98,9 @@ header .nav-container .mobile-container li {
   transform: rotate(4deg);
 }
 
-form {
+.signup {
   width: 40%;
-}
-form .button {
-  text-align: center;
-}
-form .button button {
-  background: #e079e0;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=contact.css.map */
