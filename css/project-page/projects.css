@@ -1,0 +1,149 @@
+header {
+  height: 80px;
+  z-index: 100;
+}
+header .logo img {
+  width: 60px;
+  height: 60px;
+}
+header .nav-container {
+  width: 70%;
+  height: 100%;
+  padding: 15px;
+}
+header .nav-container .navigation {
+  width: 90%;
+  background: transparent;
+}
+header .nav-container .navigation .main-menu {
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+header .nav-container .navigation .main-menu .nav-item {
+  color: #e079e0;
+  text-decoration: none;
+  height: 100%;
+  font-size: 20px;
+}
+header .nav-container .navigation .main-menu .nav-item:hover {
+  text-decoration: underline overline;
+  transition: 2s;
+  font-size: 22px;
+}
+header .nav-container .hamburger-button {
+  display: none;
+  border: none;
+  padding: 15px;
+  background: transparent;
+}
+header .nav-container .mobile-container {
+  width: 300px;
+  height: 400px;
+  background: wheat;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.4s ease-in-out;
+  transform: translateY(-500px);
+}
+header .nav-container .mobile-container .nav-item {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  font-size: 20px;
+}
+header .nav-container .mobile-container.open {
+  transform: translateY(0px);
+  z-index: 100;
+}
+header .nav-container .mobile-container li {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #e079e0;
+}
+
+@media screen and (max-width: 750px) {
+  .hamburger-button {
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 2%;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+}
+.other-hero {
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.other-hero .other-hero-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  transform: skewY(-4deg);
+  transform-origin: top left;
+}
+
+.projects-heading {
+  transform: rotate(4deg);
+}
+
+.projects-container {
+  padding: 20px;
+}
+.projects-container .project {
+  background: red;
+  height: 300px;
+  width: 300px;
+  margin: 2%;
+  border-radius: 20px;
+  position: relative;
+}
+.projects-container .project img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.projects-container .project .animation {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 0%;
+  left: 0%;
+  background: transparent;
+  padding: 20px;
+}
+.projects-container .project .animation h3 {
+  opacity: 0;
+  color: white;
+}
+.projects-container .project .animation:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  transition: all 2s ease;
+}
+.projects-container .project .animation:hover:before {
+  width: 100%;
+}
+.projects-container .project .animation:hover h3 {
+  transition: 2s;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=projects.css.map */

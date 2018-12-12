@@ -1,0 +1,58 @@
+// *******Projects***********
+@import "../header.scss";
+@import "../other-hero.scss";
+.projects-heading{
+    transform: rotate(4deg);
+}
+.projects-container{
+    padding: 20px;
+       .project{
+        background: red;
+        height: 300px;
+        width: 300px;
+        margin: 2%;
+        border-radius: 20px;
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .animation{
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            top: 0%;
+            left: 0%;
+            background: transparent;
+            padding: 20px;
+            h3{
+                opacity: 0;
+                color: white;
+            } 
+        }
+        .animation:before {
+                content:'';
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 0px;
+                height: 300px;
+                // background: red;
+                background: rgba(255,255,255,0.3);
+                border-radius: 20px;
+                transition: all 2s ease;
+            } 
+            .animation:hover:before{
+                    width:100%;
+            }
+            .animation:hover{
+                h3{
+                    transition: 2s;
+                    opacity: 1;
+                }
+            }
+
+    }
+    
+}

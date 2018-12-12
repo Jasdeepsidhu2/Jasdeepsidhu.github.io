@@ -1,29 +1,8 @@
 // ***********Work Section***************
 @import "../variables.scss";
-.work{
-    position: relative;
-    height: 550px;
-    overflow: hidden;
- }
-.work-inner{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    // background: tleal;
-    // background-image: linear-gradient(#af902f, #ff6126);
-    background: url("../images/great.jpg") no-repeat ;
-    background-size: cover;
-    background-position: center;
-    transform: skewY(-6deg);
-    transform-origin: top left;
-}
-.heading{
-    text-align: center;
-    font-family: $font-family;
+@import "../other-hero.scss";
+.work-heading{
+    transform: rotate(4deg);
 }
 %card{
     height: 500px;

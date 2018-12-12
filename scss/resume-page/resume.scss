@@ -1,0 +1,119 @@
+// *********Resume Page**********
+@import "../header.scss";
+@import "../other-hero.scss";
+%section{
+    width:22%;
+    height: 550px;
+    margin: 15px;
+    border-radius: 20px;
+}
+%description-more{
+    height:200px;
+    // text-align: center;
+    padding: 15px;
+    font-family: $font-family;
+    font-size:16px;
+    border-radius: 0px 0px  20px 20px;
+}
+%learn-more{
+    font-family: $font-family;
+    height:15%;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    background:$pink-lg;
+    border: none;
+}
+.resume-heading{
+    transform: rotate(4deg);
+}
+.sections-container{
+    width: 95%;
+    margin: 20px auto;
+    .section1{
+        @extend %section;
+        background: white;
+        .heading1{
+            height: 35%;
+            img{
+                border-radius: 20px 20px 0px 0px;
+                height: 100%;
+                width: 100%;
+            }
+         }
+        .description1{
+            @extend %description-more;
+            li{
+                list-style: inside;
+            }
+        }
+        .button{
+            @extend %learn-more;
+        }
+        .transform1{
+            transition: all 2s ease;
+        }
+        .transform1-active {
+            font-size: 18px;
+            background-color:#f581be6e
+        }
+    }
+    .section2{
+        @extend %section;
+        background: white;
+        .heading2{
+            height: 35%;
+            width:100%;
+            img{
+                border-radius: 20px 20px 0px 0px;
+                height:100%;
+                width: 100%;
+            }
+        }
+        .description2{
+            @extend %description-more;
+            li{
+                list-style: inside;
+            }
+        }
+        .button{
+            @extend %learn-more;
+        }
+        .transform2 {
+            transition: all 2s ease;
+        }
+        .transform2-active {
+            font-size: 18px;
+            background-color:#f581be6e
+        }
+    }
+    .section3{
+        @extend %section;
+        background: white;
+        .heading3{
+            height: 35%;
+            img{
+                border-radius: 20px 20px 0px 0px;
+                height:100%;
+                width: 100%;
+            }
+        }
+        .description3{
+            @extend %description-more;
+            li{
+                list-style: inside;
+            }
+        }
+        .button{
+            @extend %learn-more;
+        }
+        .transform3 {
+            transition: all 2s ease;
+        }
+        .transform3-active {
+            font-size: 18px;
+            background-color:#f581be6e
+        }
+    }  
+}

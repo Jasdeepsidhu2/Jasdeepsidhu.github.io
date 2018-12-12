@@ -1,10 +1,9 @@
-.work {
+.other-hero {
+  height: 450px;
   position: relative;
-  height: 550px;
   overflow: hidden;
 }
-
-.work-inner {
+.other-hero .other-hero-inner {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -12,16 +11,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/great.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  transform: skewY(-6deg);
+  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  transform: skewY(-4deg);
   transform-origin: top left;
 }
 
-.heading {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
+.work-heading {
+  transform: rotate(4deg);
 }
 
 .work4, .work3, .work2, .cards-container .work1 {
