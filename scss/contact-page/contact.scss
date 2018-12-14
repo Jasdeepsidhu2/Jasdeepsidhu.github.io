@@ -1,12 +1,41 @@
 // *********Contact Page**********
 @import "../header.scss";
 @import "../other-hero.scss";
+
+.container{
+    // background: red;
+    width: 100%;
+    margin-bottom: 30px;
+}
 .contact-heading{
     transform: rotate(4deg);
 }
 .signup{
-    width: 40%;
+    width: 50%;
     padding: 30px;
-    // margin: auto;
+    .button{
+        background: $pink;
+        height: 50px;
+        width: 170px;
+        margin-left:100px;
+        border-radius: 20px;
+    }
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+}
+.map{
+    width: 40%;
+    height: 350px;
 }
 
+@media screen and  (max-width:850px)
+    {
+        .signup{
+            width: 100%;
+        }
+        .map{
+            width:90%;
+        }
+    }

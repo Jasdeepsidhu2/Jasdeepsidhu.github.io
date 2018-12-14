@@ -1,0 +1,107 @@
+<!-- ***********Contact Me Page******* -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Adding appropriate meta tags -->
+    <title>Contact Me hello</title>
+    <meta name="description" content="Web developer in Calgary">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri|Lobster|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Favicon package -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header class='d-flex justify-content-around align-items-center'>
+    <div class="logo">
+        <img src="./images/j.png" alt="logo">
+    </div>
+    <div class="nav-container">
+        <nav class="navigation d-flex justify-content-between align-items-center">
+            <ul class="main-menu d-flex justify-content-around align-items-center ">
+                <li><a href="./index.html" class="nav-item">Home</a></li>
+                <li><a href="./index.html#about" class="nav-item">About</a></li>
+                <li><a href="./resume.html" class="nav-item">Resume</a></li>
+                <li><a href="./index.html#work" class="nav-item">My Work</a></li>
+                <li><a href="./contact-me.html" class="nav-item">Contact Me</a></li>
+            </ul>
+        </nav> 
+            <button class="hamburger-button" id="open-button">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="mobile-menu">
+            <div class='mobile-container' id='mobile-container'>
+                    <ul>
+                        <button id="close"><i class="fas fa-times fa-lg"></i></button>
+                        <li><a href="./index.html" class="nav-item">Home</a></li>
+                        <li><a href="./index.html#about" class="nav-item">About</a></li>
+                        <li><a href="./resume.html" class="nav-item">Resume</a></li>
+                        <li><a href="./index.html#work" class="nav-item">My Work</a></li>
+                        <li><a href="https://jasdeepsidhu.000webhostapp.com/" class="nav-item" target="_blank">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</header>
+<script src="./javscript/mobilemenu.js"></script>
+<!-- **********Hero section********** -->
+<div class="other-hero">
+        <div class="other-hero-inner d-flex flex-column align-items-center justify-content-around">
+            <h1 class="resume-heading">Contact Me</h1>
+    </div>
+</div>
+<!-- *********Contact Section****** -->
+<h1 class="heading">Let's Get In Touch</h1>
+<div class="container d-flex justify-content-around mt-5 align-items-center flex-wrap">
+    <form class="signup" action="./form.php" method="POST" >
+        <div class="form-group">
+                <label for="name">Name*</label>
+                <input type="text" name="name" class="form-control" id="name" aria-describedby="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+        <label for="email">Email address*</label>
+        <input type="email" name="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Your email address" required>
+        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+                <label for="message">Message*</label>
+                <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <div class="form-group form-check">
+        <input type="checkbox" name="consent" class="form-check-input" id="check" required>
+        <label class="form-check-label" for="check">I consent to having my name and email.</label>
+        </div>
+        <input class="button" type="submit" name="submit" value="Submit">
+    </form> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.407520955012!2d-114.09071144864465!3d51.06402687946443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSAIT!5e0!3m2!1sen!2sca!4v1544464698813"  frameborder="0" style="border:0" allowfullscreen class="map border border-danger""></iframe>
+</div>
+
+<!-- ******Footer Section*********** -->
+<footer class="d-flex flex-column align-items-center">
+        <div class="social-icons d-flex justify-content-around">
+            <a class="icon-link" href="https://www.linkedin.com/in/jaisdeepsidhu/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="icon-link" href="https://twitter.com/Jasdeep63290868" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a class="icon-link" href="#"><i class="fab fa-facebook-square fa-2x" target="_blank"></i></a>
+        </div>
+        <div class="important">
+            <div class="copyright">
+                <a href="./privacy-policy.pdf" target="_blank">Privacy Policy</a><br>
+                All Right Reserved
+                <i class="far fa-copyright">Jasdeep Sidhu</i>
+             </div>
+        </div>
+</footer>
+</body>
+</html>

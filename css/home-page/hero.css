@@ -1,13 +1,14 @@
 .hero {
   height: 600px;
-  background: url("../../images/great1.jpg");
-  background: teal;
-  position: relative;
+  background: url("../images/web.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .hero .hero-content {
   opacity: 0;
   height: 100%;
   font-family: "Raleway", sans-serif;
+  font-size: 28px;
   transition: 0.3s linear;
   transform: translate(-150px, 0px);
 }
@@ -20,7 +21,8 @@
 .hero .hero-content h2 {
   color: #e079e0;
 }
-.hero .hero-content:hover {
+
+.hero:hover .hero-content {
   opacity: 1;
   transform: translate(0px, 0px);
 }

@@ -7,7 +7,6 @@
 .projects-container{
     padding: 20px;
        .project{
-        background: red;
         height: 300px;
         width: 300px;
         margin: 2%;
@@ -38,7 +37,6 @@
                 left: 0px;
                 width: 0px;
                 height: 300px;
-                // background: red;
                 background: rgba(194, 102, 197, 0.3);
                 border-radius: 20px;
                 transition: all 2s ease;
@@ -48,7 +46,6 @@
             }
             .animation:hover{
                 h3{
-                    transition: 2s;
                     opacity: 1;
                 }
             }

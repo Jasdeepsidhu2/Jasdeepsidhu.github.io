@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  background-image: linear-gradient(#6d0d40 5%, #e079e0);
   transform: skewY(-4deg);
   transform-origin: top left;
 }
@@ -20,14 +20,14 @@
   transform: rotate(4deg);
 }
 
-.work4, .work3, .work2, .cards-container .work1 {
-  height: 500px;
+.cards-container .work4, .cards-container .work3, .cards-container .work2, .cards-container .work1 {
+  height: 550px;
   width: 22%;
   margin: 15px;
   border-radius: 20px;
 }
 
-.work4 .learn4, .work3 .learn3, .work2 .learn2, .cards-container .work1 .learn1 {
+.cards-container .work4 .learn4, .cards-container .work3 .learn3, .cards-container .work2 .learn2, .cards-container .work1 .learn1 {
   font-family: "Raleway", sans-serif;
   height: 15%;
   text-align: center;
@@ -37,8 +37,8 @@
   background: #F581BE;
 }
 
-.work4 .description4, .work3 .description3, .work2 .description2, .cards-container .work1 .description1 {
-  height: 40%;
+.cards-container .work4 .description4, .cards-container .work3 .description3, .cards-container .work2 .description2, .cards-container .work1 .description1 {
+  height: 45%;
   text-align: center;
   padding: 15px;
   background: #4d524824;
@@ -59,47 +59,47 @@
   margin: 20px auto;
 }
 .cards-container .work1 .pic1 {
-  height: 45%;
+  height: 40%;
 }
 .cards-container .work1 .pic1 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-.work2 .pic2 {
-  height: 45%;
+.cards-container .work2 .pic2 {
+  height: 40%;
 }
-.work2 .pic2 img {
+.cards-container .work2 .pic2 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-.work3 .pic3 {
-  height: 45%;
+.cards-container .work3 .pic3 {
+  height: 40%;
 }
-.work3 .pic3 img {
+.cards-container .work3 .pic3 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-.work4 .pic4 {
-  height: 45%;
+.cards-container .work4 .pic4 {
+  height: 40%;
 }
-.work4 .pic4 img {
+.cards-container .work4 .pic4 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1090px) {
   .cards-container .work1, .cards-container .work2, .cards-container .work3, .cards-container .work4 {
     width: 40%;
-    height: 400px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 750px) {
   .cards-container .work1, .cards-container .work2, .cards-container .work3, .cards-container .work4 {
     width: 80%;
-    height: 400px;
+    height: 500px;
   }
 }
 

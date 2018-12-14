@@ -96,14 +96,15 @@ header .nav-container .mobile-container li {
 }
 .hero {
   height: 600px;
-  background: url("../../images/great1.jpg");
-  background: teal;
-  position: relative;
+  background: url("../images/web.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .hero .hero-content {
   opacity: 0;
   height: 100%;
   font-family: "Raleway", sans-serif;
+  font-size: 28px;
   transition: 0.3s linear;
   transform: translate(-150px, 0px);
 }
@@ -116,14 +117,12 @@ header .nav-container .mobile-container li {
 .hero .hero-content h2 {
   color: #e079e0;
 }
-.hero .hero-content:hover {
+
+.hero:hover .hero-content {
   opacity: 1;
   transform: translate(0px, 0px);
 }
 
-.about {
-  margin-bottom: -10px;
-}
 .about .about-me {
   width: 60%;
   position: relative;
@@ -156,10 +155,11 @@ header .nav-container .mobile-container li {
   width: 100%;
   height: 100%;
   padding: 2%;
+  border-radius: 50%;
 }
 .about .pic-sign .sign {
   height: 80px;
-  width: 250px;
+  width: 200px;
   transform: rotate(-20deg);
 }
 .about .pic-sign .sign img {
@@ -168,13 +168,23 @@ header .nav-container .mobile-container li {
 }
 
 .personal {
-  color: #6d0d40;
-  text-align: center;
-  height: 120px;
   width: 180px;
-  margin-left: 3%;
+  margin-top: 35px;
+  margin-bottom: 35px;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
+}
+.personal .social-icons {
+  width: 150px;
+}
+.personal .social-icons .icon-link:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+  color: #e079e0;
+}
+.personal .email {
+  color: #007bff;
+  padding-top: 5px;
 }
 
 @media screen and (max-width: 900px) {
@@ -207,7 +217,7 @@ header .nav-container .mobile-container li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  background-image: linear-gradient(#6d0d40 5%, #e079e0);
   transform: skewY(-4deg);
   transform-origin: top left;
 }
@@ -216,14 +226,14 @@ header .nav-container .mobile-container li {
   transform: rotate(4deg);
 }
 
-.work4, .work3, .work2, .cards-container .work1 {
-  height: 500px;
+.cards-container .work4, .cards-container .work3, .cards-container .work2, .cards-container .work1 {
+  height: 550px;
   width: 22%;
   margin: 15px;
   border-radius: 20px;
 }
 
-.work4 .learn4, .work3 .learn3, .work2 .learn2, .cards-container .work1 .learn1 {
+.cards-container .work4 .learn4, .cards-container .work3 .learn3, .cards-container .work2 .learn2, .cards-container .work1 .learn1 {
   font-family: "Raleway", sans-serif;
   height: 15%;
   text-align: center;
@@ -233,8 +243,8 @@ header .nav-container .mobile-container li {
   background: #F581BE;
 }
 
-.work4 .description4, .work3 .description3, .work2 .description2, .cards-container .work1 .description1 {
-  height: 40%;
+.cards-container .work4 .description4, .cards-container .work3 .description3, .cards-container .work2 .description2, .cards-container .work1 .description1 {
+  height: 45%;
   text-align: center;
   padding: 15px;
   background: #4d524824;
@@ -255,47 +265,47 @@ header .nav-container .mobile-container li {
   margin: 20px auto;
 }
 .cards-container .work1 .pic1 {
-  height: 45%;
+  height: 40%;
 }
 .cards-container .work1 .pic1 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-.work2 .pic2 {
-  height: 45%;
+.cards-container .work2 .pic2 {
+  height: 40%;
 }
-.work2 .pic2 img {
+.cards-container .work2 .pic2 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-.work3 .pic3 {
-  height: 45%;
+.cards-container .work3 .pic3 {
+  height: 40%;
 }
-.work3 .pic3 img {
+.cards-container .work3 .pic3 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-.work4 .pic4 {
-  height: 45%;
+.cards-container .work4 .pic4 {
+  height: 40%;
 }
-.work4 .pic4 img {
+.cards-container .work4 .pic4 img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1090px) {
   .cards-container .work1, .cards-container .work2, .cards-container .work3, .cards-container .work4 {
     width: 40%;
-    height: 400px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 750px) {
   .cards-container .work1, .cards-container .work2, .cards-container .work3, .cards-container .work4 {
     width: 80%;
-    height: 400px;
+    height: 500px;
   }
 }
 header {
@@ -389,9 +399,14 @@ header .nav-container .mobile-container li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  background-image: linear-gradient(#6d0d40 5%, #e079e0);
   transform: skewY(-4deg);
   transform-origin: top left;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .contact-heading {
@@ -399,10 +414,36 @@ header .nav-container .mobile-container li {
 }
 
 .signup {
-  width: 40%;
+  width: 50%;
   padding: 30px;
 }
+.signup .button {
+  background: #e079e0;
+  height: 50px;
+  width: 170px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
 
+.heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.map {
+  width: 40%;
+  height: 350px;
+}
+
+@media screen and (max-width: 850px) {
+  .signup {
+    width: 100%;
+  }
+
+  .map {
+    width: 90%;
+  }
+}
 header {
   height: 80px;
   z-index: 100;
@@ -494,7 +535,7 @@ header .nav-container .mobile-container li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  background-image: linear-gradient(#6d0d40 5%, #e079e0);
   transform: skewY(-4deg);
   transform-origin: top left;
 }
@@ -598,6 +639,18 @@ header .nav-container .mobile-container li {
   background-color: #f581be6e;
 }
 
+@media screen and (max-width: 1190px) {
+  .sections-container .section1, .sections-container .section2, .sections-container .section3, .sections-container .section4 {
+    width: 40%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sections-container .section1, .sections-container .section2, .sections-container .section3, .sections-container .section4 {
+    width: 80%;
+    height: 500px;
+  }
+}
 header {
   height: 80px;
   z-index: 100;
@@ -689,7 +742,7 @@ header .nav-container .mobile-container li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+  background-image: linear-gradient(#6d0d40 5%, #e079e0);
   transform: skewY(-4deg);
   transform-origin: top left;
 }
@@ -702,7 +755,6 @@ header .nav-container .mobile-container li {
   padding: 20px;
 }
 .projects-container .project {
-  background: red;
   height: 300px;
   width: 300px;
   margin: 2%;
@@ -742,13 +794,114 @@ header .nav-container .mobile-container li {
   width: 100%;
 }
 .projects-container .project .animation:hover h3 {
-  transition: 2s;
   opacity: 1;
 }
 
 .cms-projects {
   height: 150px;
   background: linear-gradient(white 10%, #F1C619 40%, #e079e0);
+}
+
+header {
+  height: 80px;
+  z-index: 100;
+}
+header .logo img {
+  width: 60px;
+  height: 60px;
+}
+header .nav-container {
+  width: 70%;
+  height: 100%;
+  padding: 15px;
+}
+header .nav-container .navigation {
+  width: 90%;
+  background: transparent;
+}
+header .nav-container .navigation .main-menu {
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+header .nav-container .navigation .main-menu .nav-item {
+  color: #e079e0;
+  text-decoration: none;
+  height: 100%;
+  font-size: 20px;
+}
+header .nav-container .navigation .main-menu .nav-item:hover {
+  text-decoration: underline overline;
+  transition: 0.5s ease;
+  font-size: 22px;
+}
+header .nav-container .hamburger-button {
+  display: none;
+  border: none;
+  padding: 15px;
+  background: transparent;
+}
+header .nav-container .mobile-container {
+  width: 300px;
+  height: 400px;
+  background: wheat;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.4s ease-in-out;
+  transform: translateY(-500px);
+}
+header .nav-container .mobile-container .nav-item {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  font-size: 20px;
+}
+header .nav-container .mobile-container.open {
+  transform: translateY(0px);
+  z-index: 100;
+}
+header .nav-container .mobile-container li {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #e079e0;
+}
+
+@media screen and (max-width: 850px) {
+  .hamburger-button {
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 2%;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+}
+.weather-body {
+  background: linear-gradient(rgba(75, 72, 72, 0.5), rgba(131, 124, 124, 0.5)), url("../images/wea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.weather-body .weather-box {
+  height: 100vh;
+  width: 100%;
+}
+.weather-body .weather-box .weather {
+  height: 480px;
+  width: 500px;
+  color: white;
+  background: #004480d6;
+  border-radius: 20px;
+}
+.weather-body .weather-box .weather .heading {
+  color: #e079e0;
+  margin: 15px;
+}
+.weather-body .weather-box .weather #icon {
+  height: 120px;
 }
 
 footer {
@@ -761,10 +914,11 @@ footer .social-icons {
 }
 footer .important {
   margin: 25px;
+  text-align: center;
 }
 footer .icon-link:hover {
   transform: scale(1.2);
-  transition: 1.2s;
+  transition: 0.4s;
   color: #e079e0;
 }
 

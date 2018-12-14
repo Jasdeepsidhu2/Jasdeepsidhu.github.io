@@ -1,0 +1,103 @@
+header {
+  height: 80px;
+  z-index: 100;
+}
+header .logo img {
+  width: 60px;
+  height: 60px;
+}
+header .nav-container {
+  width: 70%;
+  height: 100%;
+  padding: 15px;
+}
+header .nav-container .navigation {
+  width: 90%;
+  background: transparent;
+}
+header .nav-container .navigation .main-menu {
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+header .nav-container .navigation .main-menu .nav-item {
+  color: #e079e0;
+  text-decoration: none;
+  height: 100%;
+  font-size: 20px;
+}
+header .nav-container .navigation .main-menu .nav-item:hover {
+  text-decoration: underline overline;
+  transition: 0.5s ease;
+  font-size: 22px;
+}
+header .nav-container .hamburger-button {
+  display: none;
+  border: none;
+  padding: 15px;
+  background: transparent;
+}
+header .nav-container .mobile-container {
+  width: 300px;
+  height: 400px;
+  background: wheat;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.4s ease-in-out;
+  transform: translateY(-500px);
+}
+header .nav-container .mobile-container .nav-item {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  font-size: 20px;
+}
+header .nav-container .mobile-container.open {
+  transform: translateY(0px);
+  z-index: 100;
+}
+header .nav-container .mobile-container li {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #e079e0;
+}
+
+@media screen and (max-width: 850px) {
+  .hamburger-button {
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 2%;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+}
+.weather-body {
+  background: linear-gradient(rgba(75, 72, 72, 0.5), rgba(131, 124, 124, 0.5)), url("../images/wea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.weather-body .weather-box {
+  height: 100vh;
+  width: 100%;
+}
+.weather-body .weather-box .weather {
+  height: 480px;
+  width: 500px;
+  color: white;
+  background: #004480d6;
+  border-radius: 20px;
+}
+.weather-body .weather-box .weather .heading {
+  color: #e079e0;
+  margin: 15px;
+}
+.weather-body .weather-box .weather #icon {
+  height: 120px;
+}
+
+/*# sourceMappingURL=weather.css.map */
