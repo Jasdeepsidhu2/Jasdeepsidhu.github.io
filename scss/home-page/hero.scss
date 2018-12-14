@@ -1,13 +1,11 @@
+ //*****************Hero Section*************
 @import "../variables.scss";
-  //*****************Hero Section*************
 .hero{
-        height: 600px;
-        background: url("../images/web.jpg");
-        background-size: cover;
-        background-position: center;
-      
-
-       .hero-content{
+    height: 600px;
+    background: url("../images/web.jpg");
+    background-size: cover;
+    background-position: center;
+    .hero-content{
         opacity: 0;
         height: 100%;
         font-family: $font-family;
@@ -24,7 +22,6 @@
             color:$pink;
         }
     }
-    
 }
 .hero:hover{
     .hero-content{

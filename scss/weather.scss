@@ -1,15 +1,14 @@
 // ********Weather display Page**********
 @import "./header.scss";
-
 .weather-body{
     background: linear-gradient(
         rgba(75, 72, 72, 0.5),
-         rgba(131, 124, 124, 0.5)),url('../images/wea.jpg') ;
+        rgba(131, 124, 124, 0.5)),url('../images/wea.jpg') ;
     background-size: cover;
     background-position: center;
-        .weather-box{
-            height: 100vh;
-            width: 100%;
+    .weather-box{
+        height: 100vh;
+        width: 100%;
         .weather{
             height: 480px;
             width: 500px;
@@ -23,7 +22,6 @@
             #icon{
                 height: 120px;
             }
-
         }
     }
 }

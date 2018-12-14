@@ -63,8 +63,10 @@ header .nav-container .mobile-container {
   position: absolute;
   top: 0;
   right: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.6s ease-in-out;
   transform: translateY(-500px);
+  box-shadow: inset 0 0 25px #000000;
+  padding-top: 20px;
 }
 header .nav-container .mobile-container .nav-item {
   color: black;
@@ -72,13 +74,17 @@ header .nav-container .mobile-container .nav-item {
   height: 100%;
   font-size: 20px;
 }
+header .nav-container .mobile-container #close {
+  background: transparent;
+  border: none;
+}
 header .nav-container .mobile-container.open {
   transform: translateY(0px);
   z-index: 100;
 }
 header .nav-container .mobile-container li {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-bottom: 1px solid #e079e0;
 }
 
@@ -181,10 +187,6 @@ header .nav-container .mobile-container li {
   transform: scale(1.2);
   transition: 0.4s;
   color: #e079e0;
-}
-.personal .email {
-  color: #007bff;
-  padding-top: 5px;
 }
 
 @media screen and (max-width: 900px) {
@@ -355,8 +357,10 @@ header .nav-container .mobile-container {
   position: absolute;
   top: 0;
   right: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.6s ease-in-out;
   transform: translateY(-500px);
+  box-shadow: inset 0 0 25px #000000;
+  padding-top: 20px;
 }
 header .nav-container .mobile-container .nav-item {
   color: black;
@@ -364,13 +368,17 @@ header .nav-container .mobile-container .nav-item {
   height: 100%;
   font-size: 20px;
 }
+header .nav-container .mobile-container #close {
+  background: transparent;
+  border: none;
+}
 header .nav-container .mobile-container.open {
   transform: translateY(0px);
   z-index: 100;
 }
 header .nav-container .mobile-container li {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-bottom: 1px solid #e079e0;
 }
 
@@ -405,7 +413,7 @@ header .nav-container .mobile-container li {
 }
 
 .container {
-  width: 100%;
+  idth: 100%;
   margin-bottom: 30px;
 }
 
@@ -423,6 +431,7 @@ header .nav-container .mobile-container li {
   width: 170px;
   margin-left: 100px;
   border-radius: 20px;
+  border: none;
 }
 
 .heading {
@@ -491,8 +500,10 @@ header .nav-container .mobile-container {
   position: absolute;
   top: 0;
   right: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.6s ease-in-out;
   transform: translateY(-500px);
+  box-shadow: inset 0 0 25px #000000;
+  padding-top: 20px;
 }
 header .nav-container .mobile-container .nav-item {
   color: black;
@@ -500,13 +511,17 @@ header .nav-container .mobile-container .nav-item {
   height: 100%;
   font-size: 20px;
 }
+header .nav-container .mobile-container #close {
+  background: transparent;
+  border: none;
+}
 header .nav-container .mobile-container.open {
   transform: translateY(0px);
   z-index: 100;
 }
 header .nav-container .mobile-container li {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-bottom: 1px solid #e079e0;
 }
 
@@ -698,8 +713,10 @@ header .nav-container .mobile-container {
   position: absolute;
   top: 0;
   right: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.6s ease-in-out;
   transform: translateY(-500px);
+  box-shadow: inset 0 0 25px #000000;
+  padding-top: 20px;
 }
 header .nav-container .mobile-container .nav-item {
   color: black;
@@ -707,13 +724,17 @@ header .nav-container .mobile-container .nav-item {
   height: 100%;
   font-size: 20px;
 }
+header .nav-container .mobile-container #close {
+  background: transparent;
+  border: none;
+}
 header .nav-container .mobile-container.open {
   transform: translateY(0px);
   z-index: 100;
 }
 header .nav-container .mobile-container li {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-bottom: 1px solid #e079e0;
 }
 
@@ -849,8 +870,10 @@ header .nav-container .mobile-container {
   position: absolute;
   top: 0;
   right: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.6s ease-in-out;
   transform: translateY(-500px);
+  box-shadow: inset 0 0 25px #000000;
+  padding-top: 20px;
 }
 header .nav-container .mobile-container .nav-item {
   color: black;
@@ -858,13 +881,17 @@ header .nav-container .mobile-container .nav-item {
   height: 100%;
   font-size: 20px;
 }
+header .nav-container .mobile-container #close {
+  background: transparent;
+  border: none;
+}
 header .nav-container .mobile-container.open {
   transform: translateY(0px);
   z-index: 100;
 }
 header .nav-container .mobile-container li {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-bottom: 1px solid #e079e0;
 }
 
@@ -902,6 +929,15 @@ header .nav-container .mobile-container li {
 }
 .weather-body .weather-box .weather #icon {
   height: 120px;
+}
+
+.thank-you {
+  height: 100vh;
+  width: 100%;
+}
+.thank-you img {
+  height: 100px;
+  width: 200px;
 }
 
 footer {

@@ -57,10 +57,6 @@
   transition: 0.4s;
   color: #e079e0;
 }
-.personal .email {
-  color: #007bff;
-  padding-top: 5px;
-}
 
 @media screen and (max-width: 900px) {
   .about {

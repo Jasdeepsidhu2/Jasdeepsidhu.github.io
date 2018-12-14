@@ -9,7 +9,6 @@
 }
 %description-more{
     height:200px;
-    // text-align: center;
     padding: 15px;
     font-family: $font-family;
     font-size:16px;
@@ -125,7 +124,6 @@
         }
     }
 }
-
 @media screen and  (max-width:750px){
     .sections-container{
         .section1,.section2,.section3,.section4{

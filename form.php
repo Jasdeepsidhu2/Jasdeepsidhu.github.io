@@ -8,6 +8,8 @@ if(isset($_POST['submit'])){
     $text="Hi!".$name."send you an email.";
     mail($mailTo,$text,$header);
     header("Location:./index.html?mailsend");
-    die("<h4 class='success'> Success! Your message has been sent. Tahnk You.</h4>");
+    die("<h4 class='success'> Success! Your message has been sent. Thank You.</h4>");
+    ?>
+    <?php
 }
 ?>

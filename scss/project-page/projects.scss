@@ -1,4 +1,4 @@
-// *******Projects***********
+// *******Projects page***********
 @import "../header.scss";
 @import "../other-hero.scss";
 .projects-heading{
@@ -6,7 +6,7 @@
 }
 .projects-container{
     padding: 20px;
-       .project{
+    .project{
         height: 300px;
         width: 300px;
         margin: 2%;
@@ -31,28 +31,27 @@
             } 
         }
         .animation:before {
-                content:'';
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                width: 0px;
-                height: 300px;
-                background: rgba(194, 102, 197, 0.3);
-                border-radius: 20px;
-                transition: all 2s ease;
-            } 
-            .animation:hover:before{
-                    width:100%;
+            content:'';
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 0px;
+            height: 300px;
+            background: rgba(194, 102, 197, 0.3);
+            border-radius: 20px;
+            transition: all 2s ease;
+        } 
+        .animation:hover:before{
+                width:100%;
+        }
+        .animation:hover{
+            h3{
+                opacity: 1;
             }
-            .animation:hover{
-                h3{
-                    opacity: 1;
-                }
-            }
+        }
     }
 }
 .cms-projects{
     height: 150px;
     background: linear-gradient(white 10%, $orange 40%, $pink);
-
 }
