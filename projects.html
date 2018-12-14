@@ -1,3 +1,4 @@
+<!-- ***********Projects Page************* -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,108 +23,109 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-        <header class='d-flex justify-content-around align-items-center'>
-            <div class="logo">
-                <img src="./images/j.png" alt="logo">
-            </div>
-            <div class="nav-container">
-                <nav class="navigation d-flex justify-content-between align-items-center">
-                    <ul class="main-menu d-flex justify-content-around align-items-center ">
+    <header class='d-flex justify-content-around align-items-center'>
+        <div class="logo">
+            <img src="./images/j.png" alt="logo">
+        </div>
+        <div class="nav-container">
+            <nav class="navigation d-flex justify-content-between align-items-center">
+                <ul class="main-menu d-flex justify-content-around align-items-center ">
+                    <li><a href="./index.html" class="nav-item">Home</a></li>
+                    <li><a href="./index.html#about" class="nav-item">About</a></li>
+                    <li><a href="./resume.html" class="nav-item">Resume</a></li>
+                    <li><a href="./index.html#work" class="nav-item">My Work</a></li>
+                    <li><a href="./contact-me.html" class="nav-item">Contact Me</a></li>
+                </ul>
+            </nav> 
+            <button class="hamburger-button" id="open-button">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="mobile-menu">
+                <div class='mobile-container' id='mobile-container'>
+                    <ul>
+                        <button id="close"><i class="fas fa-times fa-lg"></i></button>
                         <li><a href="./index.html" class="nav-item">Home</a></li>
                         <li><a href="./index.html#about" class="nav-item">About</a></li>
                         <li><a href="./resume.html" class="nav-item">Resume</a></li>
                         <li><a href="./index.html#work" class="nav-item">My Work</a></li>
-                        <li><a href="./contact-me.html" class="nav-item">Contact Me</a></li>
+                        <li><a href="https://jasdeepsidhu.000webhostapp.com/" class="nav-item" target="_blank">Contact Me</a></li>
                     </ul>
-                </nav> 
-                    <button class="hamburger-button" id="open-button">
-                        <i class="fas fa-bars fa-lg"></i>
-                    </button>
-                    <div class="mobile-menu">
-                    <div class='mobile-container' id='mobile-container'>
-                            <ul>
-                                <button id="close"><i class="fas fa-times fa-lg"></i></button>
-                                <li><a href="./index.html" class="nav-item">Home</a></li>
-                                <li><a href="./index.html#about" class="nav-item">About</a></li>
-                                <li><a href="./resume.html" class="nav-item">Resume</a></li>
-                                <li><a href="./index.html#work" class="nav-item">My Work</a></li>
-                                <li><a href="https://jasdeepsidhu.000webhostapp.com/" class="nav-item" target="_blank">Contact Me</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>
             </div>
-        </header>
-        <script src="./javscript/mobilemenu.js"></script>
-        <!--*************Hero Section*************  -->
-        <div class="other-hero">
-                <div class="other-hero-inner d-flex flex-column align-items-center justify-content-around">
-                    <h1 class="projects-heading">Projects</h1>
-                </div>
         </div>
-        <div class="projects-container d-flex justify-content-center flex-wrap">
-                <div class="project">
-                    <a href="https://assignment-4-jqvivczqxe.now.sh" target="_blank"><img src="./images/apple.png" alt="apple">
-                        <div class="animation d-flex align-items-center justify-content-center"><h3>Practice Work</h3></div>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://font-and-color.now.sh" target="_blank"><img src="./images/themes.jpg" alt="theme">
-                        <div class="animation d-flex align-items-end justify-content-center"><h3>Themes</h3></div>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://my-quote-machine.now.sh/" target="_blank"><img src="./images/qm.jfif" alt="quotemachine">
-                        <div class="animation d-flex align-items-end justify-content-center"><h3>Quote Machine</h3></div>
-                    </a>
-                </div>
+    </header>
+<script src="./javscript/mobilemenu.js"></script>
+<!--*************Hero Section*************  -->
+<div class="other-hero">
+        <div class="other-hero-inner d-flex flex-column align-items-center justify-content-around">
+            <h1 class="projects-heading">Projects</h1>
         </div>
-        <div class="projects-container d-flex justify-content-center flex-wrap">
-                <div class="project">
-                    <a href="https://my-color-palette.now.sh/" target="_blank"><img src="./images/colors.jfif" alt="colors">
-                         <div class="animation d-flex align-items-end justify-content-center"><h3>Color Palette</h3></div>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href=" https://travelagency-deeaoairhm.now.sh" target="_blank"><img src="./images/travel.jpeg" alt="travelagency">
-                        <div class="animation d-flex align-items-end justify-content-center"><h3>Travel Agency</h3></div>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="./weather.html" target="_blank"><img src="./images/weather.gif" alt="weather">
-                        <div class="animation d-flex align-items-end justify-content-center"><h3>Weather API</h3></div>
-                    </a>
-                </div>
+</div>
+<!-- *********Projects Cards********* -->
+<div class="projects-container d-flex justify-content-center flex-wrap">
+        <div class="project">
+            <a href="https://assignment-4-jqvivczqxe.now.sh" target="_blank"><img src="./images/apple.png" alt="apple">
+                <div class="animation d-flex align-items-end justify-content-center"><h3>Practice Work</h3></div>
+            </a>
         </div>
-        <div class="other-hero">
-                <div class="other-hero-inner d-flex flex-column align-items-center justify-content-around">
-                    <h1 class="contact-heading">Wordpress</h1>
-                </div>
+        <div class="project">
+            <a href="https://font-and-color.now.sh" target="_blank"><img src="./images/themes.jpg" alt="theme">
+                <div class="animation d-flex align-items-end justify-content-center"><h3>Themes</h3></div>
+            </a>
         </div>
-        <div class="projects-container d-flex justify-content-center flex-wrap">
-                <div class="project">
-                        <a href="http://35.226.136.239/" target="_blank"><img src="./images/make.jfif" alt="">
-                            <div class="animation d-flex align-items-end justify-content-center"><h3>Wordpress site</h3></div>
-                        </a>
-                </div>
-                <div class="project">
-                        <a href="http://35.225.203.212" target="_blank"><img src="./images/images.png" alt="">
-                            <div class="animation d-flex align-items-end justify-content-center"><h3>Custom Theme</h3></div>
-                        </a>
-                </div>
+        <div class="project">
+            <a href="https://my-quote-machine.now.sh/" target="_blank"><img src="./images/qm.jfif" alt="quotemachine">
+                <div class="animation d-flex align-items-end justify-content-center"><h3>Quote Machine</h3></div>
+            </a>
         </div>
-        <footer class="d-flex flex-column align-items-center">
-                <div class="social-icons d-flex justify-content-around">
-                    <a class="icon-link" href="https://www.linkedin.com/in/jaisdeepsidhu/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                    <a class="icon-link" href="https://twitter.com/Jasdeep63290868" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
-                    <a class="icon-link" href="#"><i class="fab fa-facebook-square fa-2x" target="_blank"></i></a>
-                </div>
-                <div class="important">
-                    <div class="copyright">
-                        <a href="./privacy-policy.pdf" target="_blank">Privacy Policy</a><br>
-                        All Right Reserved
-                        <i class="far fa-copyright">Jasdeep Sidhu</i>
-                     </div>
-                </div>
-        </footer>
-    </body>
-    </html>
+</div>
+<div class="projects-container d-flex justify-content-center flex-wrap">
+    <div class="project">
+        <a href="https://my-color-palette.now.sh/" target="_blank"><img src="./images/colors.jfif" alt="colors">
+                <div class="animation d-flex align-items-end justify-content-center"><h3>Color Palette</h3></div>
+        </a>
+    </div>
+    <div class="project">
+        <a href=" https://travelagency-deeaoairhm.now.sh" target="_blank"><img src="./images/travel.jpeg" alt="travelagency">
+            <div class="animation d-flex align-items-end justify-content-center"><h3>Travel Agency</h3></div>
+        </a>
+    </div>
+    <div class="project">
+        <a href="./weather.html" target="_blank"><img src="./images/weather.gif" alt="weather">
+            <div class="animation d-flex align-items-end justify-content-center"><h3>Weather API</h3></div>
+        </a>
+    </div>
+</div>
+<div class="other-hero">
+    <div class="other-hero-inner d-flex flex-column align-items-center justify-content-around">
+        <h1 class="contact-heading">Wordpress</h1>
+    </div>
+</div>
+<div class="projects-container d-flex justify-content-center flex-wrap">
+    <div class="project">
+        <a href="http://35.226.136.239/" target="_blank"><img src="./images/make.jfif" alt="">
+            <div class="animation d-flex align-items-end justify-content-center"><h3>Wordpress site</h3></div>
+        </a>
+    </div>
+    <div class="project">
+            <a href="http://35.225.203.212" target="_blank"><img src="./images/images.png" alt="">
+                <div class="animation d-flex align-items-end justify-content-center"><h3>Custom Theme</h3></div>
+            </a>
+    </div>
+</div>
+<footer class="d-flex flex-column align-items-center">
+    <div class="social-icons d-flex justify-content-around">
+        <a class="icon-link" href="https://www.linkedin.com/in/jaisdeepsidhu/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a class="icon-link" href="https://twitter.com/Jasdeep63290868" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a class="icon-link" href="#"><i class="fab fa-facebook-square fa-2x" target="_blank"></i></a>
+    </div>
+    <div class="important">
+        <div class="copyright">
+            <a href="./privacy-policy.pdf" target="_blank">Privacy Policy</a><br>
+            All Right Reserved
+            <i class="far fa-copyright">Jasdeep Sidhu</i>
+            </div>
+    </div>
+</footer>
+</body>
+</html>

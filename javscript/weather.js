@@ -1,12 +1,12 @@
+// *************Weather API request*************************
 var city='Calgary';
-
 function getWeather(){
     var xhttp = new XMLHttpRequest();
     var url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=9433fad3d5a66a43a710322260fa9155";
     xhttp.onreadystatechange = function(){
        if(xhttp.readyState==4 && xhttp.status==200){
             var parsedJSON = JSON.parse(xhttp.responseText);
-               outputWeather(parsedJSON);
+            outputWeather(parsedJSON);
         }
     }
     xhttp.open("GET",url,true);

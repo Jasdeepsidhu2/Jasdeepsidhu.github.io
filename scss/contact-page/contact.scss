@@ -1,10 +1,8 @@
 // *********Contact Page**********
 @import "../header.scss";
 @import "../other-hero.scss";
-
 .container{
-    // background: red;
-    width: 100%;
+    idth: 100%;
     margin-bottom: 30px;
 }
 .contact-heading{
@@ -19,6 +17,7 @@
         width: 170px;
         margin-left:100px;
         border-radius: 20px;
+        border:none;
     }
 }
 .heading{
@@ -29,13 +28,11 @@
     width: 40%;
     height: 350px;
 }
-
-@media screen and  (max-width:850px)
-    {
+@media screen and  (max-width:850px){
         .signup{
             width: 100%;
         }
         .map{
             width:90%;
         }
-    }
+}

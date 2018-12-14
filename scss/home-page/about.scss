@@ -1,15 +1,12 @@
-@import "../variables.scss";
 //**********About Section**************
+@import "../variables.scss";
 .about{
-    // background: orange;
-    // margin-bottom: -10px;
-    .about-me{
+       .about-me{
         width: 60%;
         position: relative;
         margin: 3%;
         font-family: $font-family;
         font-size: 22px;
-        // background: teal;
         h1{
             color:$pink;
             text-align: center;
@@ -30,7 +27,6 @@
             background:$pink;
             margin: 4% auto;
             border-radius: 50%;
-            
             img{
                 width: 100%;
                 height: 100%;
@@ -42,7 +38,6 @@
             height: 80px;
             width: 200px;
             transform: rotate(-20deg);
-            // background: red;
             img{
                 height: 100%;
                 width: 100%;
@@ -51,8 +46,6 @@
     }
 }
 .personal{
-        // color:$pink;
-        // height: 120px;
         width: 180px;
         margin-top: 35px;
         margin-bottom: 35px;
@@ -65,11 +58,6 @@
                 transition: 0.4s;
                 color: $pink;
             }
-        }
-        .email{
-            color: #007bff;
-            // margin-right: 3px;
-            padding-top: 5px;
         }
 }
 @media screen and  (max-width:900px){
